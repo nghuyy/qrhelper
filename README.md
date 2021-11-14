@@ -12,6 +12,6 @@ implementation fileTree(include: [ '*.aar'], dir: '../qrhelper')
 ```
 
 ``` JAVA
-  //Show qrcode with height 256
-  imageview.setImageBitmap(QR.createQR("data",256));
+//Show qrcode with height 256
+imageview.setImageBitmap(QR.createQR("data",256));
 ```
